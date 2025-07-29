@@ -69,7 +69,7 @@ export default defineConfigWithTheme<ThemeConfig>({
   //   hostname: 'https://vitepress-theme-bluearchive.vercel.app',
   // },
   title: "枫落丰源's Blog",
-  description: "Hello, Sensei!",
+  description: "Hello, Sensei !",
   themeConfig: {
     // navBar
     menuList: [
@@ -80,7 +80,7 @@ export default defineConfigWithTheme<ThemeConfig>({
     //banner区配置
     videoBanner: true,
     name: "枫落丰源's Blog",
-    welcomeText: 'Hello, Sensei!',
+    welcomeText: 'Hello, Sensei !',
     motto: ['和你的日常，就是奇迹', '何気ない日常で、ほんの少しの奇跡を見つける物語。'],
     social: [
       { icon: 'github', url: 'https://github.com/Qiufengluoyes' },
