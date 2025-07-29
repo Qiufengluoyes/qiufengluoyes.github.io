@@ -102,8 +102,8 @@ export default defineConfigWithTheme<ThemeConfig>({
     clientID: 'Ov23liB09ZxDO6JkHupU',
     clientSecret: 'ce3ac54a991a2675a667393de70d46cf3df77e59',
     repo: 'qiufengluoyes.github.io',
-    owner: 'Qiufengluoyes'
-    admin: ['Qiufengluoyes']
+    owner: 'Qiufengluoyes',
+    admin: ['Qiufengluoyes'],
   },
   markdown: {
     theme: 'solarized-dark',
