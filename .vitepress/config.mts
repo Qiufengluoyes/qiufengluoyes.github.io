@@ -83,9 +83,9 @@ export default defineConfigWithTheme<ThemeConfig>({
     welcomeText: 'Hello, Sensei!',
     motto: ['和你的日常，就是奇迹', '何気ない日常で、ほんの少しの奇跡を見つける物語。'],
     social: [
-      { icon: 'github', url: 'https://github.com/' },
-      { icon: 'bilibili', url: 'https://www.bilibili.com/' },
-      { icon: 'qq', url: 'https://im.qq.com/index/' },
+      { icon: 'github', url: 'https://github.com/Qiufengluoyes' },
+      { icon: 'bilibili', url: 'https://space.bilibili.com/1735270180' },
+      { icon: 'qq', url: 'tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=435900598&website=www.oicqzone.com' },
       { icon: 'wechat', url: 'https://weixin.qq.com/' },
     ],
 
