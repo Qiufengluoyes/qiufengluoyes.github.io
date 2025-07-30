@@ -100,8 +100,8 @@ export default defineConfigWithTheme<ThemeConfig>({
     ],
 
     //gitalk配置
-    clientID: 'Ov23liB09ZxDO6JkHupU',
-    clientSecret: 'ce3ac54a991a2675a667393de70d46cf3df77e59',
+    clientID: 'Ov23liO0iQaATau6273r',
+    clientSecret: '9edeed8be04ba35d3ea08ba05364983c9618fc9c',
     repo: 'qiufengluoyes.github.io',
     owner: 'Qiufengluoyes',
     admin: ['Qiufengluoyes'],
