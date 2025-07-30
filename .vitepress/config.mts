@@ -66,7 +66,7 @@ export default defineConfigWithTheme<ThemeConfig>({
   ignoreDeadLinks: true,
   // 生成站点地图
   // sitemap: {
-  //   hostname: 'https://vitepress-theme-bluearchive.vercel.app',
+  //   hostname: 'https://feng1026.top',
   // },
   title: "枫落丰源's Blog",
   description: "Hello, Sensei !",
