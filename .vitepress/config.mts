@@ -95,7 +95,8 @@ export default defineConfigWithTheme<ThemeConfig>({
     footerName: 'Sensei',
     poweredList: [
       { name: 'VitePress', url: 'https://github.com/vuejs/vitepress' },
-      { name: 'GitHub Pages', url: 'https://docs.github.com/zh/pages' },
+      { name: 'GitHub Actions', url: 'https://docs.github.com/zh/actions' },
+      { name: 'Vercel', url: 'https://vercel.com/' },
     ],
 
     //gitalk配置
