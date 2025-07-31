@@ -64,3 +64,54 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+            - name: IndexNow Action
+  # You may pin to the exact commit or the version.
+  # uses: bojieyang/indexnow-action@cd6d1576582c1839b80dd71f418f172aa40d6552
+  uses: bojieyang/indexnow-action@v2
+  with:
+    # The location of the sitemap(e.g., https://example.com/sitemap.xml).
+    sitemap-location: 
+    # URLs with `lastmod` fields in sitemap files within the last {since} {since-unit} will be submitted.
+The default value is 1.
+
+    since: # optional, default is 1
+    # The unit of since. 
+Available units are 'minute', 'hour', 'day', 'week', 'month' and 'year'.
+The default value is 'day'.
+
+    since-unit: # optional, default is day
+    # The endpoint of a special search engine. 
+Available units are api.indexnow.org, www.bing.com, search.seznam.cz and yandex.com. 
+The default value is www.bing.com. For more details, see: https://www.indexnow.org/faq
+
+    endpoint: # optional, default is www.bing.com
+    # IndexNow key that you get from search engines.
+NOTICE: DO NOT stored as plaintext in the workflow file. Use GitHub Secrets instead.
+More about GitHub Secrets, see 'https://docs.github.com/en/actions/security-guides/encrypted-secrets'.
+
+    key: 
+    # Location of the IndexNow key file that you customed.
+If not set, it will assume that there is a file named '{your-indexnow-key}.txt' in the root directory of the website.
+NOTICE: DO NOT stored as plaintext in the workflow file. Use GitHub Secrets instead.
+More about GitHub Secrets, see 'https://docs.github.com/en/actions/security-guides/encrypted-secrets'.
+
+    key-location: # optional, default is 
+    # The upper limit for submitting URLs.
+    limit: # optional, default is 100
+    # Set the fetch timeout in milliseconds. The default value is 10000.
+    timeout: # optional, default is 10000
+    # Define the strategy  when submit failed. Available strategy are ignore and error. 
+For 'ignore', will outputting an notice only. 
+For 'error', outputting an error message also sets the status of action to fail. 
+The Default value is ignore.
+
+    failure-strategy: # optional, default is ignore
+    # If set to false, url entry without a `lastmod` tag in sitemap may be submitted, as long as the other conditions are met.
+If set to true, url entry without a `lastmod` tag in sitemap will be excluded. This is the default behavior and can not be configured before.
+However, there are some scenarios where the sitemap does not have a `lastmod` tag and it is difficult to set this tag, 
+but they still want these URLs to be submitted.
+This option is added to be compatible with this scenario.
+since version 2.1.
+
+    lastmod-required: # optional, default is true
+          
