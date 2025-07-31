@@ -92,7 +92,7 @@ export default defineConfigWithTheme<ThemeConfig>({
     spineVoiceLang: 'jp',
 
     //footer配置
-    footerName: '枫落丰源 本站所有内容遵循<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 协议</a>',
+    footerName: '枫落丰源 本站所有内容遵循 CC BY-NC-SA 4.0 协议</a> ',
     poweredList: [
       { name: 'VitePress', url: 'https://github.com/vuejs/vitepress' },
       { name: 'GitHub Actions', url: 'https://docs.github.com/zh/actions' },
