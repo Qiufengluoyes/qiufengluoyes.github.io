@@ -23,7 +23,7 @@ Long time no see ! —— 好久不见！
 
 本博客主要使用了[**vitepress-theme-bluearchive**](https://github.com/Alittfre/vitepress-theme-bluearchive "蔚蓝档案主题")开源主题，主体框架为VitePress，使用Github Actions&Vercel部署，VS Code编辑并提交相关博客文章及代码改动。
 
-最后，希望这个博客也能够成为我源源不断的创作动力、分享动力，让我与您在网络上无声的电波——也能成为**奇迹.**
+最后，希望这个博客也能够成为我源源不断的创作动力、分享动力，让我与您在网络上无声的电波——也能成为**奇迹**。
 
 > 何気ない日常で、ほんの少しの奇跡を見つける物語。
 >
