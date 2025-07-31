@@ -1,21 +1,23 @@
 ---
-title: 好久不见
+title: 好久不见｜Blog公告栏
 date: 2025-07-31
-tags: [vitepress, hello]
+tags: [vitepress, Hello, Notice]
 cover: /imgs/IMG_20250723_153541.png
 pinned: true
 head:
   - - meta
     - name: description
-      content: 好久不见，枫落丰源！
+      content: Long time no see——好久不见：博客的新旅途就此扬帆起航！
   - - meta
     - name: keywords
       content: 好久不见，枫落丰源！, 枫落丰源
 ---
 
-Long time no see ! —— 好久不见！
+Long time no see —— 好久不见：博客的新旅途就此扬帆起航！｜这里后续还会成为Blog公告栏哦ヾ(≧ ▽ ≦)ゝ
 
 ---
+
+**ヾ(≧▽≦*)o**
 
 欢迎各位朋友再次访问我的博客！
 
