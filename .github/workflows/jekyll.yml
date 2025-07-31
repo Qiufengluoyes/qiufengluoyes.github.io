@@ -9,7 +9,7 @@ name: Deploy the Blog
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["master"]
+    branches: ["main"]
   #  Runs on 0 AM every day of GMT+8 
   schedule:
   - cron: "10 0 * * *"
