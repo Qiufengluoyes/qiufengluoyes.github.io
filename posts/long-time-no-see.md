@@ -2,7 +2,7 @@
 title: 好久不见
 date: 2025-07-31
 tags: [vitepress, hello]
-cover: /public/imgs/IMG_20250723_153541.png
+cover: /imgs/IMG_20250723_153541.png
 pinned: true
 head:
   - - meta
