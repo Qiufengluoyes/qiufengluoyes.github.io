@@ -65,9 +65,9 @@ export default defineConfigWithTheme<ThemeConfig>({
   ],
   ignoreDeadLinks: true,
   // 生成站点地图
-  // sitemap: {
-  //   hostname: 'https://feng1026.top',
-  // },
+  sitemap: {
+    hostname: 'https://feng1026.top', //替换为你自己的域名
+  },
   title: "枫落丰源's Blog",
   description: "Hello, Sensei !",
   themeConfig: {
