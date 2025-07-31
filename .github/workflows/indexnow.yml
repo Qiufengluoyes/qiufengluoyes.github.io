@@ -18,3 +18,4 @@ jobs:
           since: 1
           since-unit: "day"
           key: ${{ secrets.INDEXNOW_KEY }}
+
