@@ -86,7 +86,7 @@ export default defineConfigWithTheme<ThemeConfig>({
       { icon: 'github', url: 'https://github.com/Qiufengluoyes' },
       { icon: 'bilibili', url: 'https://space.bilibili.com/1735270180' },
       { icon: 'qq', url: 'tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=435900598&website=www.oicqzone.com' },
-      { icon: 'subway', url: 'https://www.travellings.cn/plain.html' },
+      { icon: 'metro', url: 'https://www.travellings.cn/plain.html' },
     ],
 
     //spine语音配置，可选zh/jp
