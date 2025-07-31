@@ -11,7 +11,6 @@ head:
     - name: keywords
       content: vitepress theme bluearchive HelloWorld
 ---
-
 只是一个 HelloWorld
 
 ---
@@ -97,6 +96,9 @@ This is a dangerous warning.
 ::: details
 This is a details block.
 :::
+
+## LaTex Code Test
+$\frac{2}{3} \times \frac{3}{2} = 1$
 
 ## More
 
