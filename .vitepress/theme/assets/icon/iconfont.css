@@ -85,6 +85,10 @@
   content: "\E779";
 }
 
-.icon-lovelinks:before {
+.icon-status:before {
   content: "\E780";
+}
+
+.icon-lovelinks:before {
+  content: "\E781";
 }

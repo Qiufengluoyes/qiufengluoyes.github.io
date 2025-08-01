@@ -86,6 +86,7 @@ export default defineConfigWithTheme<ThemeConfig>({
       { icon: 'github', url: 'https://github.com/Qiufengluoyes' },
       { icon: 'bilibili', url: 'https://space.bilibili.com/1735270180' },
       { icon: 'qq', url: 'tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=435900598&website=www.oicqzone.com' },
+      { icon: 'status', url: 'https://status.feng1026.top/' },
       { icon: 'metro', url: 'https://www.travellings.cn/plain.html' },
     ],
 
@@ -93,7 +94,7 @@ export default defineConfigWithTheme<ThemeConfig>({
     spineVoiceLang: 'jp',
 
     //footer配置
-    footerName: '枫落丰源 <br>本站内容遵循 CC BY-NC-SA 4.0 协议',
+    footerName: '枫落丰源 本站内容遵循 CC BY-NC-SA 4.0 协议',
     poweredList: [
       { name: 'VitePress', url: 'https://github.com/vuejs/vitepress' },
       { name: 'GitHub Actions', url: 'https://docs.github.com/zh/actions' },
